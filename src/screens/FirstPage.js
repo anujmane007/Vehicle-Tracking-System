@@ -1,15 +1,13 @@
 import React from "react";
 import {View, Text, StyleSheet} from "react-native";
-import FirstPage from "./src/screens/FirstPage";
 
-const App = () => {
+const FirstPage = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.textStyle}>Hey, Hello This is my first app</Text>
-      <FirstPage/>
+      <Text style={styles.textStyle}>Hey, Hello This is my first Page</Text>
     </View>
-  );
-}
+  )
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -19,8 +17,8 @@ const styles = StyleSheet.create({
   },
   textStyle: {
     color: "red",
-    fontSize: 1
+    fontSize: 10
   },
 });
 
-export default App;
+export default FirstPage;

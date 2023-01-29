@@ -1,11 +1,11 @@
 import React from "react";
 import { View, Image, StyleSheet } from "react-native";
 
-const Images = () => {
+const ImgLog = () => {
     return (
         <View>
             <Image
-                source={require("../../assets/vehicle.jpeg")}
+                source={require("../../assets/LogVehicle.jpeg")}
                 style={styles.imageStyle}
             />
         </View>
@@ -16,10 +16,10 @@ const styles = StyleSheet.create({
     imageStyle: {
         position: 'absolute',
         width: 225,
-        height: 225,
-        left: 50,
+        height: 180,
+        left: 65,
         top: 10,
     }
 });
 
-export default Images;
+export default ImgLog;

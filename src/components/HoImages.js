@@ -1,11 +1,11 @@
 import React from "react";
 import { View, Image, StyleSheet } from "react-native";
 
-const Images = () => {
+const HoImages = () => {
     return (
         <View>
             <Image
-                source={require("../../assets/vehicle.jpeg")}
+                source={require("../../assets/hVehicle.jpeg")}
                 style={styles.imageStyle}
             />
         </View>
@@ -15,11 +15,11 @@ const Images = () => {
 const styles = StyleSheet.create({
     imageStyle: {
         position: 'absolute',
-        width: 225,
-        height: 225,
-        left: 50,
-        top: 10,
+        width: 350,
+        height: 205,
+        left: 15,
+        top: 75,
     }
 });
 
-export default Images;
+export default HoImages;
